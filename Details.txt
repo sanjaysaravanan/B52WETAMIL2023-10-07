@@ -1,0 +1,85 @@
+
+Topics:
+
+  http status codes, 
+    response codes to understand the http request/connection
+    1xx - Infomational Responses
+    2xx - Sucess Responses
+    3xx - Redirection / Not Modified Responses
+    4xx - Client Side Responses ( Browser Side Problems )
+    5xx - Server Side Responses
+
+  Rendering ---> Convert HTML/CSS/JS codes to Beatiful webpage
+
+    HTML: --> Skeleton
+    CSS: Skin/Makeup
+    JS: Brain
+
+    Hyper Text Mark Up Language
+    HTML Rendering Process of DOM:
+      DOM --> Document Object Model
+        Skeleton Of Webpage
+        HTML
+          | --> Head
+                  
+          | --> Body
+                  | --> h1
+                  | --> mark
+
+      1. Browser Fetchs the HTML Document
+      2. Parsing/Rendering it via 
+        DOM Tree --> which is used by rendering engine
+
+        Rendering Engine is responsible for the Marking Up of different Tags
+
+          HTML Parser for HTML Processing/Parsing
+
+      3. CSS -> Written Inside/outside HTML
+        CCSSOM Tree --> which is used to painting or format the HTML rendered
+        CSS: Presentation/Skin/Makeup ---> Beautification
+
+    JS:
+      functional Brain of HTML --> Client Side( Page User will see ) scripting / functional script
+    
+      Different set of JS Engines in Browser:
+
+    BrowserJs:
+      JS with predefined objects( window, window.document ) for execution in browser
+
+    NodeJs:
+      Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.
+
+      Run a JS File Outside a Web Browser:
+        node <file-name>.js/<path-to-file>/<file-name>.js
+
+    Window vs Document:
+      window is the Root Container of all things in browser
+
+      Document comes inside the window which nothing but the HTML File
+
+    Publish to Github via VSCode
+  
+
+Task:
+
+  Day 2:
+    https://docs.google.com/document/d/1lkzy8u0rkW5v2jGvbJcJrmVVLjMqN_TmmsHkL41AoIc/preview
+
+Next Session:
+    JSON or Object in JavaScript
+
+    datatypes
+
+    Copy by Value & Copy by Reference
+
+    Array & JSON Iteration
+
+    XMLHttpRequest
+
+Info to Co-Ordinator:
+
+  Not able to Submit Task for Day1 JS:
+    Few Candidates not able to submit the task:
+    Task Submmition form not available or not Opening
+  
+  Candidates: Selvamurugan, Manoj TR, Shwetha, Murugeshwaran
